@@ -1,0 +1,6 @@
+def roll_number_generator():
+    temp = 101 
+    while True:
+        yield temp 
+        temp = temp + 1 
+num = roll_number_generator
